@@ -2,7 +2,7 @@ public class Atividade1 {
     public static void main(String[] args) {
 
 
-        //EXERCICIOS
+        //EXERCICIO1
 
         byte per = 77;
 
@@ -16,7 +16,7 @@ public class Atividade1 {
 
         float zona = 94.73239473240349234723847283374f;
 
-        //FIMEXERCICIOS
+        //FIMEXERCICIO1
 
     }
 }

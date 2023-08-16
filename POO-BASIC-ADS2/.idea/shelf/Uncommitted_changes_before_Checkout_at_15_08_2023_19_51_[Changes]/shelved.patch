@@ -1,0 +1,100 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	
++++ b/src/Main.java	
+@@ -1,6 +1,88 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
+-        System.out.println("Teste do Branchs1!");
++
++
++        //EXERCICIOS
++
++        byte per = 77;
++
++        double pre = 8.9876543;
++
++        int cart = 1234567;
++
++        char nota = 'O';
++
++        boolean habili =  true;
++
++        float zona = 94.73239473240349234723847283374f;
++
++        //FIMEXERCICIOS
++
++
++        //EXERCICIOS2
++
++
++
++
++        char d = '5';
++
++        switch(d) {
++            case '1' :
++                System.out.println("Domingo");
++                break;
++            case '2' :
++                System.out.println("Segunda");
++                break;
++            case '3' :
++                System.out.println("Terça");
++                break;
++            case '4' :
++                System.out.println("Quarta");
++                break;
++            case '5' :
++                System.out.println("Quinta");
++                break;
++            case '6' :
++                System.out.println("Sexta");
++                break;
++            case '7' :
++                System.out.println("Sabado");
++                break;
++        }
++
++        //1
++
++
++
++        int valor = 10;
++        while (valor < 20) {
++            System.out.println("Valor: " + valor);
++            valor++;
++        }
++
++        //2
++
++
++        int valorb = 10;
++        do {
++            System.out.println("Valor: " + valorb);
++            valorb++;
++        }while (valorb < 20);
++
++        //3
++
++        int h = 5;
++        int b = 3;
++        int B = 7;
++
++        int area = (h*(b+B))/2;
++
++        System.out.println(area);
++
++        //4
++
++
++        //FIMEXERCICIO2
+     }
+-}
+\ No newline at end of file
++}

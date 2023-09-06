@@ -1,3 +1,5 @@
+package Aula4;
+
 public class Boletim {
 
    String aluno;

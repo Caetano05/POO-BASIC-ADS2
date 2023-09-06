@@ -1,8 +1,16 @@
+package Aula4;
+
+import Aula4.Aluno;
+import Aula4.Boletim;
+import Aula4.Disciplina;
+
 public class Main {
     public static void main(String[] args) {
 
         Aluno aluno = new Aluno();
         aluno.nome = "Bruno Kurzawe";
+
+
 
         Disciplina matematica = new Disciplina();
         matematica.adicionaNota(9);
